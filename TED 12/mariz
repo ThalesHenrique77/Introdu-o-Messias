@@ -1,0 +1,22 @@
+de randint de importação aleatória
+
+A = []
+B = []
+
+para linha no intervalo (10):
+    linha = []
+
+    para coluna no intervalo (10):
+        linha.append(randint(0, 10000))
+
+    A.append(linha)
+
+para linha_matriz em A:
+    print(linha_matriz)
+
+para linha em A:
+    soma = soma(linha)
+    imprimir(soma)
+    B.append(soma * 3)
+
+imprimir(B)
