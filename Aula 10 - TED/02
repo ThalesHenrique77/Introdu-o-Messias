@@ -1,0 +1,15 @@
+notas = []
+soma = 0
+contador = 0
+
+para nota no intervalo ( 20 ):
+    notas . append ( float ( input ( "Digite uma nota: " )))
+    soma = soma + notas [nota]
+
+mídia = soma / 20
+
+para nota em notas:
+    se nota > mídia :
+        contador += 1
+        
+print (f"A média da turma foi { media } , e { contador } alunos tiveram a nota maior que a média!" )
