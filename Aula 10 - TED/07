@@ -1,0 +1,17 @@
+de randint de importação aleatória
+
+vetor = []
+
+para i no intervalo (20):
+    i = randint(0, 100)
+    vetor.append(i)
+
+
+x = float(input("Digite um numero para ver se tem no vetor: "))
+imprimir(vetor)
+
+se x no vetor:
+  vetor.remove(x)
+  print(f"Vetor: {vetor}")
+senão:
+  print("Número não encontrado")
