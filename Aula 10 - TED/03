@@ -1,0 +1,14 @@
+de randint de importação aleatória
+
+Q = []
+
+para i no intervalo (20):
+    i = randint(0, 100)
+    Q.apêndice(i)
+
+
+print(f"O valor do elemento maior é {max(Q)}, e sua posição no vetor é a {Q.index(max(Q))}")
+
+# B) O valor do menor elemento de Q e a respectiva posição que ele ocupa no vetor;
+
+print(f"O valor do menor elemento é {min(Q)}, e sua posição no vetor é a {Q.index(min(Q))}")
