@@ -1,0 +1,16 @@
+de randint de importação aleatória
+
+vetor = []
+quantidade = 0
+
+para i no intervalo (30):
+    i = randint(0, 100)
+    vetor.append(i)
+
+x = float(input("Digite um numero para ver se tem no vetor: "))
+
+para x no vetor:
+  se x == x:
+    quantidade += 1
+
+print(f"Quantidade de vezes que o número {x} aparece no vetor: {quantidade}")
