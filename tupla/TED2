@@ -1,0 +1,4 @@
+nprefer = {"João": 15, "José": 16, "José": 19, "Thiago": 27, "Renata": 30}
+
+para t,g em nprefer.items():
+    print(f'O número preferido de {t} é {g}.')
