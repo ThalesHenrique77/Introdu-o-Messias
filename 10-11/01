@@ -1,0 +1,20 @@
+vezes = []
+
+clube = str(input("Digite o nome do clube para adicionar a lista: ")).lower()
+times.append(clube)
+
+enquanto len(vezes) <= 10:
+    clube = str(input("Digite o nome do próximo clube: ")).lower()
+    se clube em tempos:
+        print("--- Clube já adicionado!! ---")
+    senão:
+        times.append(clube)
+
+print("---"*5, "Número de clubes máximo alcançado!", "---"*5)
+
+pesq = str(input("Digite o nome do clube que deseja pesquisar: ")).lower()
+
+se pesq em tempos:
+    print(f"ACHEI. Encontrei o clube {pesq.title()} na lista.")
+senão:
+    print(f"NÃO ACHEI. Não encontrei o clube {pesq.title()} na lista.")
