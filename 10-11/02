@@ -1,0 +1,17 @@
+importar aleatório
+
+vetor = []
+
+para i no intervalo (30):
+    t = random.randint(0, 30)
+    vetor.append(t)
+
+n = int(input("Digite o número que deseja pesquisar entre 0 e 30: "))
+
+imprimir(vetor)
+
+se n no vetor:
+    x = vetor.count(n)
+    print(f"O número {n} apareceu {x} vezes na relação aleatória.")
+senão:
+    print(f"O número {n} não apareceu na relação aleatória.");
