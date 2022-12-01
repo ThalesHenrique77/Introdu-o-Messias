@@ -1,0 +1,16 @@
+de randint de importação aleatória
+
+N = []
+A = []
+B = []
+
+para i no intervalo(10):
+    i = A.append(randint(0, 100))
+
+para j no intervalo (10):
+    j = B.append(randint(0, 100))
+
+para x no intervalo(10):
+  N.apêndice(A[i] + B[j])
+
+imprimir(N)
