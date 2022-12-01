@@ -1,0 +1,12 @@
+clubes = []
+
+para a no intervalo ( 10 ):
+    clubes . append ( input ( "Digite um novo clube: " ))
+
+search_club = input( "Digite o clube que deseja buscar: " )
+
+para b em clubes:
+    se search_club == b :
+        print("Achei!" )
+    mais:
+        print("Não consegui!" )
